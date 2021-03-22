@@ -12,7 +12,7 @@ from .views import SingleTableMixin, SingleTableView, MultiTableMixin
 __version__ = '1.16.0'
 
 __all__ = (
-    'Table', 'TableBase',
+    'Table', 'TableBase', 'table_factory',
     'BooleanColumn', 'Column', 'CheckBoxColumn', 'DateColumn', 'DateTimeColumn',
     'EmailColumn', 'FileColumn', 'JSONColumn', 'LinkColumn', 'ManyToManyColumn',
     'RelatedLinkColumn', 'TemplateColumn', 'TimeColumn', 'URLColumn',
